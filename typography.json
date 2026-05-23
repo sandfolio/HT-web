@@ -1,0 +1,286 @@
+{
+  "$metadata": {
+    "_figmaSource": "https://www.figma.com/design/lQojkiG3ZFBmsLu2GIShxm/Score-Design-System",
+    "typeface_primary": "Plus Jakarta Sans",
+    "typeface_body": "Noto Sans",
+    "typeface_decorative": "Fira Sans Condensed"
+  },
+  "heading": {
+    "h1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontWeight": 700,
+        "fontSize": "24px",
+        "lineHeight": "36px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Heading/h1"
+    },
+    "h2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontWeight": 700,
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Heading/h2"
+    },
+    "h3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontWeight": 600,
+        "fontSize": "18px",
+        "lineHeight": "28px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Heading/h3"
+    },
+    "h4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Heading/h4"
+    },
+    "h5": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Plus Jakarta Sans",
+        "fontWeight": 600,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Heading/h5"
+    }
+  },
+  "body": {
+    "b1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 400,
+        "fontSize": "18px",
+        "lineHeight": "28px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/body/b1"
+    },
+    "b2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/body/b2"
+    },
+    "b3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 400,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/body/b3"
+    },
+    "b4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 400,
+        "fontSize": "12px",
+        "lineHeight": "18px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/body/b4"
+    }
+  },
+  "label": {
+    "lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 500,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/label/lg"
+    },
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 500,
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/label/md"
+    }
+  },
+  "labelcaps": {
+    "lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 500,
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "2.8px",
+        "textTransform": "uppercase"
+      },
+      "$figmaVariable": "Typography/labelcaps/lg"
+    },
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 500,
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "letterSpacing": "2.4px",
+        "textTransform": "uppercase"
+      },
+      "$figmaVariable": "Typography/labelcaps/md"
+    }
+  },
+  "caption": {
+    "lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 500,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/caption/lg"
+    },
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 500,
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/caption/md"
+    }
+  },
+  "cta": {
+    "lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/CTA/lg"
+    },
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 600,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/CTA/md"
+    },
+    "sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Noto Sans",
+        "fontWeight": 600,
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/CTA/sm"
+    }
+  },
+  "decorative": {
+    "d1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Fira Sans Condensed",
+        "fontWeight": 700,
+        "fontSize": "24px",
+        "lineHeight": "36px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Decorative/d1"
+    },
+    "d2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Fira Sans Condensed",
+        "fontWeight": 700,
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Decorative/d2"
+    },
+    "d3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Fira Sans Condensed",
+        "fontWeight": 700,
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Decorative/d3"
+    },
+    "d4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Fira Sans Condensed",
+        "fontWeight": 700,
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "letterSpacing": "0px",
+        "textTransform": "none"
+      },
+      "$figmaVariable": "Typography/Decorative/d4"
+    }
+  }
+}

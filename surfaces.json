@@ -1,0 +1,128 @@
+{
+  "$metadata": {
+    "_figmaSource": "https://www.figma.com/design/lQojkiG3ZFBmsLu2GIShxm/Score-Design-System"
+  },
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$figmaVariable": "radius/none"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$figmaVariable": "radius/sm"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$figmaVariable": "radius/md"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$figmaVariable": "radius/lg"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$figmaVariable": "radius/xl"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px",
+      "$figmaVariable": "radius/full"
+    }
+  },
+  "elevation": {
+    "none": {
+      "$type": "shadow",
+      "$value": {
+        "x": "0px",
+        "y": "0px",
+        "blur": "0px",
+        "spread": "0px",
+        "color": "rgba(0,0,0,0)"
+      },
+      "$figmaVariable": "elevation/none"
+    },
+    "sm": {
+      "$type": "shadow",
+      "$value": {
+        "x": "0px",
+        "y": "1px",
+        "blur": "3px",
+        "spread": "0px",
+        "color": "rgba(0,0,0,0.1)"
+      },
+      "$figmaVariable": "elevation/sm"
+    },
+    "md": {
+      "$type": "shadow",
+      "$value": {
+        "x": "0px",
+        "y": "4px",
+        "blur": "6px",
+        "spread": "-1px",
+        "color": "rgba(0,0,0,0.1)"
+      },
+      "$figmaVariable": "elevation/md"
+    },
+    "lg": {
+      "$type": "shadow",
+      "$value": {
+        "x": "0px",
+        "y": "10px",
+        "blur": "15px",
+        "spread": "-3px",
+        "color": "rgba(0,0,0,0.1)"
+      },
+      "$figmaVariable": "elevation/lg"
+    },
+    "xl": {
+      "$type": "shadow",
+      "$value": {
+        "x": "0px",
+        "y": "20px",
+        "blur": "25px",
+        "spread": "-5px",
+        "color": "rgba(0,0,0,0.1)"
+      },
+      "$figmaVariable": "elevation/xl"
+    }
+  },
+  "blur": {
+    "sm": {
+      "$type": "number",
+      "$value": 4,
+      "$figmaVariable": "blur/sm"
+    },
+    "md": {
+      "$type": "number",
+      "$value": 8,
+      "$figmaVariable": "blur/md"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": 16,
+      "$figmaVariable": "blur/lg"
+    }
+  },
+  "opacity": {
+    "disabled": {
+      "$type": "number",
+      "$value": 0.38,
+      "$figmaVariable": "opacity/disabled"
+    },
+    "hover": {
+      "$type": "number",
+      "$value": 0.08,
+      "$figmaVariable": "opacity/hover"
+    },
+    "pressed": {
+      "$type": "number",
+      "$value": 0.12,
+      "$figmaVariable": "opacity/pressed"
+    }
+  }
+}

@@ -1,0 +1,972 @@
+{
+  "$metadata": {
+    "_figmaSource": "https://www.figma.com/design/lQojkiG3ZFBmsLu2GIShxm/Score-Design-System",
+    "_fileKey": "lQojkiG3ZFBmsLu2GIShxm",
+    "brand_palette": {
+      "primary": "#004EBE",
+      "secondary": "#FF8C3F",
+      "accent": "#E95D00"
+    }
+  },
+  "neutral": {
+    "white": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$figmaVariable": "colour/neutral/white"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#EFEFF1",
+      "$figmaVariable": "colour/neutral/50"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#F2F5F9",
+      "$figmaVariable": "colour/neutral/100"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#DCE1E8",
+      "$figmaVariable": "colour/neutral/200"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#BEC5D2",
+      "$figmaVariable": "colour/neutral/300"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#9EA7B8",
+      "$figmaVariable": "colour/neutral/400"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#818BA0",
+      "$figmaVariable": "colour/neutral/500"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#5D6A85",
+      "$figmaVariable": "colour/neutral/600"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#3D4966",
+      "$figmaVariable": "colour/neutral/700"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#242E49",
+      "$figmaVariable": "colour/neutral/800"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#141B31",
+      "$figmaVariable": "colour/neutral/900"
+    },
+    "950": {
+      "$type": "color",
+      "$value": "#090E1D",
+      "$figmaVariable": "colour/neutral/950"
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#000000",
+      "$figmaVariable": "colour/neutral/black"
+    }
+  },
+  "blue": {
+    "950": {
+      "$type": "color",
+      "$value": "#00193D",
+      "$figmaVariable": "colour/blue/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#002B68",
+      "$figmaVariable": "colour/blue/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#003C93",
+      "$figmaVariable": "colour/blue/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#004EBE",
+      "$figmaVariable": "colour/blue/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#005FE9",
+      "$figmaVariable": "colour/blue/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#1474FF",
+      "$figmaVariable": "colour/blue/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#3F8EFF",
+      "$figmaVariable": "colour/blue/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#6AA7FF",
+      "$figmaVariable": "colour/blue/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#95C0FF",
+      "$figmaVariable": "colour/blue/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#C0DAFF",
+      "$figmaVariable": "colour/blue/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#F2F5FA",
+      "$figmaVariable": "colour/blue/50"
+    }
+  },
+  "orange": {
+    "950": {
+      "$type": "color",
+      "$value": "#3D1800",
+      "$figmaVariable": "colour/orange/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#682A00",
+      "$figmaVariable": "colour/orange/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#933B00",
+      "$figmaVariable": "colour/orange/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#BE4C00",
+      "$figmaVariable": "colour/orange/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#E95D00",
+      "$figmaVariable": "colour/orange/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#FF7214",
+      "$figmaVariable": "colour/orange/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#FF8C3F",
+      "$figmaVariable": "colour/orange/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#FFA66A",
+      "$figmaVariable": "colour/orange/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#FFBF95",
+      "$figmaVariable": "colour/orange/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#FFD9C0",
+      "$figmaVariable": "colour/orange/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#FFF3EB",
+      "$figmaVariable": "colour/orange/50"
+    }
+  },
+  "green": {
+    "950": {
+      "$type": "color",
+      "$value": "#112C22",
+      "$figmaVariable": "colour/green/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#1D4B3A",
+      "$figmaVariable": "colour/green/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#296A51",
+      "$figmaVariable": "colour/green/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#358969",
+      "$figmaVariable": "colour/green/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#40A881",
+      "$figmaVariable": "colour/green/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#55BE96",
+      "$figmaVariable": "colour/green/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#74CAA9",
+      "$figmaVariable": "colour/green/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#93D6BD",
+      "$figmaVariable": "colour/green/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#B2E2D0",
+      "$figmaVariable": "colour/green/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#D0EDE2",
+      "$figmaVariable": "colour/green/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#F0F9F6",
+      "$figmaVariable": "colour/green/50"
+    }
+  },
+  "lime": {
+    "950": {
+      "$type": "color",
+      "$value": "#1B2609",
+      "$figmaVariable": "colour/lime/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#2D3F0E",
+      "$figmaVariable": "colour/lime/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#445E16",
+      "$figmaVariable": "colour/lime/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#5A7D1D",
+      "$figmaVariable": "colour/lime/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#719D24",
+      "$figmaVariable": "colour/lime/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#87BC2B",
+      "$figmaVariable": "colour/lime/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#9BC74E",
+      "$figmaVariable": "colour/lime/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#AFD272",
+      "$figmaVariable": "colour/lime/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#C3DD95",
+      "$figmaVariable": "colour/lime/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#D7E9B8",
+      "$figmaVariable": "colour/lime/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#E7F2D5",
+      "$figmaVariable": "colour/lime/50"
+    }
+  },
+  "red": {
+    "950": {
+      "$type": "color",
+      "$value": "#3A0903",
+      "$figmaVariable": "colour/red/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#631005",
+      "$figmaVariable": "colour/red/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#8B1708",
+      "$figmaVariable": "colour/red/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#B41D0A",
+      "$figmaVariable": "colour/red/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#DD240C",
+      "$figmaVariable": "colour/red/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#F33920",
+      "$figmaVariable": "colour/red/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#F55D49",
+      "$figmaVariable": "colour/red/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#F78172",
+      "$figmaVariable": "colour/red/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#FAA59A",
+      "$figmaVariable": "colour/red/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#FCC9C3",
+      "$figmaVariable": "colour/red/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#FFEAE8",
+      "$figmaVariable": "colour/red/50"
+    }
+  },
+  "purple": {
+    "950": {
+      "$type": "color",
+      "$value": "#150068",
+      "$figmaVariable": "colour/purple/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#2600BE",
+      "$figmaVariable": "colour/purple/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#4314FF",
+      "$figmaVariable": "colour/purple/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#5836FE",
+      "$figmaVariable": "colour/purple/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#6144F9",
+      "$figmaVariable": "colour/purple/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#714CF8",
+      "$figmaVariable": "colour/purple/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#805FFF",
+      "$figmaVariable": "colour/purple/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#997FFF",
+      "$figmaVariable": "colour/purple/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#B29FFF",
+      "$figmaVariable": "colour/purple/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#CCBFFF",
+      "$figmaVariable": "colour/purple/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#F3F0FF",
+      "$figmaVariable": "colour/purple/50"
+    }
+  },
+  "yellow": {
+    "950": {
+      "$type": "color",
+      "$value": "#33260D",
+      "$figmaVariable": "colour/yellow/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#554016",
+      "$figmaVariable": "colour/yellow/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#806022",
+      "$figmaVariable": "colour/yellow/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#AA802D",
+      "$figmaVariable": "colour/yellow/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#D5A038",
+      "$figmaVariable": "colour/yellow/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#FFC043",
+      "$figmaVariable": "colour/yellow/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#FFCB62",
+      "$figmaVariable": "colour/yellow/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#FFD582",
+      "$figmaVariable": "colour/yellow/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#FFE0A1",
+      "$figmaVariable": "colour/yellow/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#FFEAC0",
+      "$figmaVariable": "colour/yellow/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#FFF2D9",
+      "$figmaVariable": "colour/yellow/50"
+    }
+  },
+  "magenta": {
+    "950": {
+      "$type": "color",
+      "$value": "#3D0027",
+      "$figmaVariable": "colour/magenta/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#680042",
+      "$figmaVariable": "colour/magenta/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#93005D",
+      "$figmaVariable": "colour/magenta/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#BE0078",
+      "$figmaVariable": "colour/magenta/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#E90093",
+      "$figmaVariable": "colour/magenta/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#FF14A9",
+      "$figmaVariable": "colour/magenta/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#FF3FB8",
+      "$figmaVariable": "colour/magenta/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#FF6AC8",
+      "$figmaVariable": "colour/magenta/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#FF95D8",
+      "$figmaVariable": "colour/magenta/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#FFC0E8",
+      "$figmaVariable": "colour/magenta/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#FFECF8",
+      "$figmaVariable": "colour/magenta/50"
+    }
+  },
+  "teal": {
+    "950": {
+      "$type": "color",
+      "$value": "#002E3D",
+      "$figmaVariable": "colour/teal/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#004E68",
+      "$figmaVariable": "colour/teal/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#006E93",
+      "$figmaVariable": "colour/teal/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#008EBE",
+      "$figmaVariable": "colour/teal/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#00AEE9",
+      "$figmaVariable": "colour/teal/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#14C4FF",
+      "$figmaVariable": "colour/teal/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#3FCFFF",
+      "$figmaVariable": "colour/teal/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#6ADAFF",
+      "$figmaVariable": "colour/teal/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#95E4FF",
+      "$figmaVariable": "colour/teal/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#C0EFFF",
+      "$figmaVariable": "colour/teal/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#E7F9FF",
+      "$figmaVariable": "colour/teal/50"
+    }
+  },
+  "orchid": {
+    "950": {
+      "$type": "color",
+      "$value": "#5C1E9C",
+      "$figmaVariable": "colour/orchid/950"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#6D30AE",
+      "$figmaVariable": "colour/orchid/900"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#7F42C1",
+      "$figmaVariable": "colour/orchid/800"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#9153D6",
+      "$figmaVariable": "colour/orchid/700"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#A166F7",
+      "$figmaVariable": "colour/orchid/600"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#B571F7",
+      "$figmaVariable": "colour/orchid/500"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#C57AF7",
+      "$figmaVariable": "colour/orchid/400"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#DD87F7",
+      "$figmaVariable": "colour/orchid/300"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#E9A5FA",
+      "$figmaVariable": "colour/orchid/200"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#F4C7FC",
+      "$figmaVariable": "colour/orchid/100"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#FDEEFF",
+      "$figmaVariable": "colour/orchid/50"
+    }
+  },
+  "brand": {
+    "primary": {
+      "$type": "color",
+      "$value": "{blue.700}",
+      "$resolvedValue": "#004EBE",
+      "$figmaVariable": "colour/brand/Primary",
+      "$description": "Primary brand color \u2192 blue/700"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{orange.400}",
+      "$resolvedValue": "#FF8C3F",
+      "$figmaVariable": "colour/brand/Secondary",
+      "$description": "Secondary brand color \u2192 orange/400"
+    }
+  },
+  "semantic": {
+    "background": {
+      "primary": {
+        "$type": "color",
+        "$value": "{neutral.white}",
+        "$resolvedValue": "#FFFFFF",
+        "$figmaVariable": "background/primary",
+        "$description": "Alias → neutral/white"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$resolvedValue": "#F2F5F9",
+        "$figmaVariable": "background/secondary",
+        "$description": "Alias → neutral/100"
+      }
+    },
+    "surface": {
+      "brand": {
+        "$type": "color",
+        "$value": "{blue.700}",
+        "$resolvedValue": "#004EBE",
+        "$figmaVariable": "surface/brand",
+        "$description": "Alias → blue/700"
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{red.500}",
+        "$resolvedValue": "#F33920",
+        "$figmaVariable": "surface/error",
+        "$description": "Alias → red/500"
+      },
+      "error-subtle": {
+        "$type": "color",
+        "$value": "{red.50}",
+        "$resolvedValue": "#FFEAE8",
+        "$figmaVariable": "surface/error-subtle",
+        "$description": "Alias → red/50"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.800}",
+        "$resolvedValue": "#296A51",
+        "$figmaVariable": "surface/success",
+        "$description": "Alias → green/800"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{yellow.600}",
+        "$resolvedValue": "#D5A038",
+        "$figmaVariable": "surface/warning",
+        "$description": "Alias → yellow/600"
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "{yellow.50}",
+        "$resolvedValue": "#FFF2D9",
+        "$figmaVariable": "surface/warning-subtle",
+        "$description": "Alias → yellow/50"
+      },
+      "neutral-100": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$resolvedValue": "#F2F5F9",
+        "$figmaVariable": "surface/neutral-100",
+        "$description": "Alias → neutral/100"
+      },
+      "neutral-200": {
+        "$type": "color",
+        "$value": "{neutral.200}",
+        "$resolvedValue": "#DCE1E8",
+        "$figmaVariable": "surface/neutral-200",
+        "$description": "Alias → neutral/200"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{green.50}",
+        "$resolvedValue": "#F0F9F6",
+        "$figmaVariable": "surface/success-subtle",
+        "$description": "Alias → green/50"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{blue.700}",
+        "$resolvedValue": "#004EBE",
+        "$figmaVariable": "surface/info",
+        "$description": "Alias → blue/700"
+      },
+      "info-subtle": {
+        "$type": "color",
+        "$value": "{blue.50}",
+        "$resolvedValue": "#F2F5FA",
+        "$figmaVariable": "surface/info-subtle",
+        "$description": "Alias → blue/50"
+      },
+      "brand-subtle": {
+        "$type": "color",
+        "$value": "{blue.50}",
+        "$resolvedValue": "#F2F5FA",
+        "$figmaVariable": "surface/brand-subtle",
+        "$description": "Alias → blue/50"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{neutral.900}",
+        "$resolvedValue": "#141B31",
+        "$figmaVariable": "text/primary",
+        "$description": "Alias → neutral/900"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{neutral.500}",
+        "$resolvedValue": "#818BA0",
+        "$figmaVariable": "text/secondary",
+        "$description": "Alias → neutral/500"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{blue.700}",
+        "$resolvedValue": "#004EBE",
+        "$figmaVariable": "text/brand",
+        "$description": "Alias → blue/700"
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{red.600}",
+        "$resolvedValue": "#DD240C",
+        "$figmaVariable": "text/error",
+        "$description": "Alias → red/600 (DRD HTAPP-10416: inline error text)"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$resolvedValue": "#40A881",
+        "$figmaVariable": "text/success",
+        "$description": "Alias → green/600"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{orange.600}",
+        "$resolvedValue": "#E95D00",
+        "$figmaVariable": "text/warning",
+        "$description": "Alias → orange/600 (PasswordStrengthBar medium)"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$resolvedValue": "#9EA7B8",
+        "$figmaVariable": "text/disabled",
+        "$description": "Alias → neutral/400"
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$resolvedValue": "#9EA7B8",
+        "$figmaVariable": "text/placeholder",
+        "$description": "Alias → neutral/400 (input placeholder text)"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{neutral.white}",
+        "$resolvedValue": "#FFFFFF",
+        "$figmaVariable": "text/inverse",
+        "$description": "Alias → neutral/white (text on dark backgrounds)"
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{neutral.white}",
+        "$resolvedValue": "#FFFFFF",
+        "$figmaVariable": "text/on-brand",
+        "$description": "Alias → neutral/white (text on brand primary surface)"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.200}",
+        "$resolvedValue": "#DCE1E8",
+        "$figmaVariable": "border/default",
+        "$description": "Alias → neutral/200"
+      },
+      "focused": {
+        "$type": "color",
+        "$value": "{blue.700}",
+        "$resolvedValue": "#004EBE",
+        "$figmaVariable": "border/focused",
+        "$description": "Alias → blue/700 (input focused state, DRD HTAPP-10416)"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{blue.700}",
+        "$resolvedValue": "#004EBE",
+        "$figmaVariable": "border/brand",
+        "$description": "Alias → blue/700"
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{red.600}",
+        "$resolvedValue": "#DD240C",
+        "$figmaVariable": "border/error",
+        "$description": "Alias → red/600 (DRD HTAPP-10416: field error state)"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$resolvedValue": "#40A881",
+        "$figmaVariable": "border/success",
+        "$description": "Alias → green/600 (field success state)"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.200}",
+        "$resolvedValue": "#DCE1E8",
+        "$figmaVariable": "border/disabled",
+        "$description": "Alias → neutral/200 (input disabled state)"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{orange.600}",
+        "$resolvedValue": "#E95D00",
+        "$figmaVariable": "border/warning",
+        "$description": "Alias → orange/600"
+      }
+    },
+    "icon": {
+      "primary": {
+        "$type": "color",
+        "$value": "{neutral.900}",
+        "$resolvedValue": "#141B31",
+        "$figmaVariable": "icon/primary",
+        "$description": "Alias → neutral/900"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{neutral.500}",
+        "$resolvedValue": "#818BA0",
+        "$figmaVariable": "icon/secondary",
+        "$description": "Alias → neutral/500"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{blue.700}",
+        "$resolvedValue": "#004EBE",
+        "$figmaVariable": "icon/brand",
+        "$description": "Alias → blue/700"
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{red.600}",
+        "$resolvedValue": "#DD240C",
+        "$figmaVariable": "icon/error",
+        "$description": "Alias → red/600"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$resolvedValue": "#40A881",
+        "$figmaVariable": "icon/success",
+        "$description": "Alias → green/600"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{orange.600}",
+        "$resolvedValue": "#E95D00",
+        "$figmaVariable": "icon/warning",
+        "$description": "Alias → orange/600"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$resolvedValue": "#9EA7B8",
+        "$figmaVariable": "icon/disabled",
+        "$description": "Alias → neutral/400"
+      }
+    },
+    "status": {
+      "error": {
+        "$type": "color",
+        "$value": "{red.600}",
+        "$resolvedValue": "#DD240C",
+        "$figmaVariable": "status/error",
+        "$description": "Alias → red/600 (DRD HTAPP-10416)"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$resolvedValue": "#40A881",
+        "$figmaVariable": "status/success",
+        "$description": "Alias → green/600"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{yellow.600}",
+        "$resolvedValue": "#D5A038",
+        "$figmaVariable": "status/warning",
+        "$description": "Alias → yellow/600"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$resolvedValue": "#1474FF",
+        "$figmaVariable": "status/info",
+        "$description": "Alias → blue/500"
+      }
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "$metadata": {
+    "_figmaSource": "https://www.figma.com/design/lQojkiG3ZFBmsLu2GIShxm/Score-Design-System",
+    "component_count": 21,
+    "components_detected": [
+      "Button",
+      "Forms",
+      "Notifications",
+      "Badge",
+      "Progress Bar",
+      "Pagination",
+      "Navigation",
+      "Bottom Nav",
+      "Tooltip",
+      "Toast",
+      "Loader",
+      "Tabs",
+      "Bottom Sheet",
+      "Lists",
+      "Empty State",
+      "Avatar",
+      "TextInputField",
+      "OTPInputGroup",
+      "PasswordStrengthBar",
+      "CountdownTimer",
+      "ResendOTPLink"
+    ]
+  },
+  "button": {
+    "$description": "PrimaryButton — Login/Onboarding CTA (DRD HTAPP-10416)",
+    "background": {
+      "$type": "color",
+      "$value": "{blue.700}",
+      "$resolvedValue": "#004EBE",
+      "$figmaVariable": "component/button/background"
+    },
+    "backgroundDisabled": {
+      "$type": "color",
+      "$value": "{neutral.200}",
+      "$resolvedValue": "#DCE1E8",
+      "$figmaVariable": "component/button/backgroundDisabled"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{neutral.white}",
+      "$resolvedValue": "#FFFFFF",
+      "$figmaVariable": "component/button/text"
+    },
+    "textDisabled": {
+      "$type": "color",
+      "$value": "{neutral.400}",
+      "$resolvedValue": "#9EA7B8",
+      "$figmaVariable": "component/button/textDisabled"
+    },
+    "borderRadius": {
+      "$type": "dimension",
+      "$value": "{radius.full}",
+      "$resolvedValue": "9999px",
+      "$figmaVariable": "component/button/borderRadius"
+    },
+    "height": {
+      "$type": "dimension",
+      "$value": "{spacing.12}",
+      "$resolvedValue": "48px",
+      "$figmaVariable": "component/button/height"
+    },
+    "paddingHorizontal": {
+      "$type": "dimension",
+      "$value": "{spacing.6}",
+      "$resolvedValue": "24px",
+      "$figmaVariable": "component/button/paddingHorizontal"
+    },
+    "typography": {
+      "$type": "typography",
+      "$value": "{heading.h5}",
+      "$resolvedValue": "Plus Jakarta Sans 600 14/20",
+      "$figmaVariable": "component/button/typography"
+    }
+  },
+  "textInputField": {
+    "$description": "TextInputField — Default/Focused/Error/Disabled/Success states (DRD HTAPP-10416)",
+    "background": {
+      "$type": "color",
+      "$value": "{neutral.white}",
+      "$resolvedValue": "#FFFFFF",
+      "$figmaVariable": "component/textInputField/background"
+    },
+    "backgroundDisabled": {
+      "$type": "color",
+      "$value": "{neutral.50}",
+      "$resolvedValue": "#EFEFF1",
+      "$figmaVariable": "component/textInputField/backgroundDisabled"
+    },
+    "borderDefault": {
+      "$type": "color",
+      "$value": "{neutral.200}",
+      "$resolvedValue": "#DCE1E8",
+      "$figmaVariable": "component/textInputField/borderDefault"
+    },
+    "borderFocused": {
+      "$type": "color",
+      "$value": "{blue.700}",
+      "$resolvedValue": "#004EBE",
+      "$figmaVariable": "component/textInputField/borderFocused"
+    },
+    "borderError": {
+      "$type": "color",
+      "$value": "{red.600}",
+      "$resolvedValue": "#DD240C",
+      "$figmaVariable": "component/textInputField/borderError"
+    },
+    "borderSuccess": {
+      "$type": "color",
+      "$value": "{green.600}",
+      "$resolvedValue": "#40A881",
+      "$figmaVariable": "component/textInputField/borderSuccess"
+    },
+    "borderRadius": {
+      "$type": "dimension",
+      "$value": "{radius.md}",
+      "$resolvedValue": "12px",
+      "$figmaVariable": "component/textInputField/borderRadius"
+    },
+    "paddingVertical": {
+      "$type": "dimension",
+      "$value": "{spacing.4}",
+      "$resolvedValue": "16px",
+      "$figmaVariable": "component/textInputField/paddingVertical"
+    },
+    "paddingHorizontal": {
+      "$type": "dimension",
+      "$value": "{spacing.4}",
+      "$resolvedValue": "16px",
+      "$figmaVariable": "component/textInputField/paddingHorizontal"
+    },
+    "labelTypography": {
+      "$type": "typography",
+      "$value": "{body.b3}",
+      "$resolvedValue": "Noto Sans 400 14/20",
+      "$figmaVariable": "component/textInputField/labelTypography"
+    },
+    "inputTypography": {
+      "$type": "typography",
+      "$value": "{body.b2}",
+      "$resolvedValue": "Noto Sans 400 16/24",
+      "$figmaVariable": "component/textInputField/inputTypography"
+    },
+    "errorTypography": {
+      "$type": "typography",
+      "$value": "{body.b3}",
+      "$resolvedValue": "Noto Sans 400 14/20",
+      "$figmaVariable": "component/textInputField/errorTypography"
+    }
+  },
+  "otpInputGroup": {
+    "$description": "OTPInputGroup — 6 single-digit cells, inline OTP entry (DRD HTAPP-10416)",
+    "cellBackground": {
+      "$type": "color",
+      "$value": "{neutral.white}",
+      "$resolvedValue": "#FFFFFF",
+      "$figmaVariable": "component/otpInputGroup/cellBackground"
+    },
+    "cellBorderDefault": {
+      "$type": "color",
+      "$value": "{neutral.200}",
+      "$resolvedValue": "#DCE1E8",
+      "$figmaVariable": "component/otpInputGroup/cellBorderDefault"
+    },
+    "cellBorderFocused": {
+      "$type": "color",
+      "$value": "{blue.700}",
+      "$resolvedValue": "#004EBE",
+      "$figmaVariable": "component/otpInputGroup/cellBorderFocused"
+    },
+    "cellBorderError": {
+      "$type": "color",
+      "$value": "{red.600}",
+      "$resolvedValue": "#DD240C",
+      "$figmaVariable": "component/otpInputGroup/cellBorderError"
+    },
+    "cellBorderSuccess": {
+      "$type": "color",
+      "$value": "{green.600}",
+      "$resolvedValue": "#40A881",
+      "$figmaVariable": "component/otpInputGroup/cellBorderSuccess"
+    },
+    "cellBorderRadius": {
+      "$type": "dimension",
+      "$value": "{radius.md}",
+      "$resolvedValue": "12px",
+      "$figmaVariable": "component/otpInputGroup/cellBorderRadius"
+    },
+    "cellGap": {
+      "$type": "dimension",
+      "$value": "{spacing.2}",
+      "$resolvedValue": "8px",
+      "$figmaVariable": "component/otpInputGroup/cellGap"
+    },
+    "cellSize": {
+      "$type": "dimension",
+      "$value": "{spacing.12}",
+      "$resolvedValue": "48px",
+      "$figmaVariable": "component/otpInputGroup/cellSize"
+    },
+    "cellTypography": {
+      "$type": "typography",
+      "$value": "{heading.h2}",
+      "$resolvedValue": "Plus Jakarta Sans 700 20/28",
+      "$figmaVariable": "component/otpInputGroup/cellTypography"
+    }
+  },
+  "passwordStrengthBar": {
+    "$description": "PasswordStrengthBar — Weak/Medium/Strong states (DRD HTAPP-10416)",
+    "trackBackground": {
+      "$type": "color",
+      "$value": "{neutral.200}",
+      "$resolvedValue": "#DCE1E8",
+      "$figmaVariable": "component/passwordStrengthBar/trackBackground"
+    },
+    "fillWeak": {
+      "$type": "color",
+      "$value": "{red.600}",
+      "$resolvedValue": "#DD240C",
+      "$figmaVariable": "component/passwordStrengthBar/fillWeak"
+    },
+    "fillMedium": {
+      "$type": "color",
+      "$value": "{orange.600}",
+      "$resolvedValue": "#E95D00",
+      "$figmaVariable": "component/passwordStrengthBar/fillMedium"
+    },
+    "fillStrong": {
+      "$type": "color",
+      "$value": "{green.600}",
+      "$resolvedValue": "#40A881",
+      "$figmaVariable": "component/passwordStrengthBar/fillStrong"
+    },
+    "labelTypography": {
+      "$type": "typography",
+      "$value": "{body.b3}",
+      "$resolvedValue": "Noto Sans 400 14/20",
+      "$figmaVariable": "component/passwordStrengthBar/labelTypography"
+    },
+    "height": {
+      "$type": "dimension",
+      "$value": "{spacing.1}",
+      "$resolvedValue": "4px",
+      "$figmaVariable": "component/passwordStrengthBar/height"
+    },
+    "borderRadius": {
+      "$type": "dimension",
+      "$value": "{radius.full}",
+      "$resolvedValue": "9999px",
+      "$figmaVariable": "component/passwordStrengthBar/borderRadius"
+    }
+  },
+  "countdownTimer": {
+    "$description": "CountdownTimer — Active/Expired states for OTP resend (DRD HTAPP-10416)",
+    "textActive": {
+      "$type": "color",
+      "$value": "{neutral.500}",
+      "$resolvedValue": "#818BA0",
+      "$figmaVariable": "component/countdownTimer/textActive"
+    },
+    "textExpired": {
+      "$type": "color",
+      "$value": "{neutral.400}",
+      "$resolvedValue": "#9EA7B8",
+      "$figmaVariable": "component/countdownTimer/textExpired"
+    },
+    "typography": {
+      "$type": "typography",
+      "$value": "{body.b3}",
+      "$resolvedValue": "Noto Sans 400 14/20",
+      "$figmaVariable": "component/countdownTimer/typography"
+    }
+  },
+  "resendOTPLink": {
+    "$description": "ResendOTPLink — Disabled (countdown active) / Active states (DRD HTAPP-10416)",
+    "textActive": {
+      "$type": "color",
+      "$value": "{blue.700}",
+      "$resolvedValue": "#004EBE",
+      "$figmaVariable": "component/resendOTPLink/textActive"
+    },
+    "textDisabled": {
+      "$type": "color",
+      "$value": "{neutral.400}",
+      "$resolvedValue": "#9EA7B8",
+      "$figmaVariable": "component/resendOTPLink/textDisabled"
+    },
+    "typography": {
+      "$type": "typography",
+      "$value": "{body.b3}",
+      "$resolvedValue": "Noto Sans 400 14/20",
+      "$figmaVariable": "component/resendOTPLink/typography"
+    }
+  },
+  "badge": {
+    "$description": "Badge — Count/dot indicator for notifications and status",
+    "background": {
+      "$type": "color",
+      "$value": "{red.600}",
+      "$resolvedValue": "#DD240C",
+      "$figmaVariable": "component/badge/background"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{neutral.white}",
+      "$resolvedValue": "#FFFFFF",
+      "$figmaVariable": "component/badge/text"
+    },
+    "typography": {
+      "$type": "typography",
+      "$value": "{label.md}",
+      "$resolvedValue": "Noto Sans 500 12/16",
+      "$figmaVariable": "component/badge/typography"
+    },
+    "height": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$figmaVariable": "component/badge/height"
+    },
+    "borderRadius": {
+      "$type": "dimension",
+      "$value": "{radius.full}",
+      "$resolvedValue": "9999px",
+      "$figmaVariable": "component/badge/borderRadius"
+    },
+    "paddingHorizontal": {
+      "$type": "dimension",
+      "$value": "{spacing.1}",
+      "$resolvedValue": "4px",
+      "$figmaVariable": "component/badge/paddingHorizontal"
+    }
+  },
+  "avatar": {
+    "$description": "Avatar — User profile image with fallback initials",
+    "backgroundFallback": {
+      "$type": "color",
+      "$value": "{blue.100}",
+      "$resolvedValue": "#C0DAFF",
+      "$figmaVariable": "component/avatar/backgroundFallback"
+    },
+    "textFallback": {
+      "$type": "color",
+      "$value": "{blue.700}",
+      "$resolvedValue": "#004EBE",
+      "$figmaVariable": "component/avatar/textFallback"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{neutral.200}",
+      "$resolvedValue": "#DCE1E8",
+      "$figmaVariable": "component/avatar/border"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{spacing.8}",
+      "$resolvedValue": "32px",
+      "$figmaVariable": "component/avatar/sm"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{spacing.10}",
+      "$resolvedValue": "40px",
+      "$figmaVariable": "component/avatar/md"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{spacing.12}",
+      "$resolvedValue": "48px",
+      "$figmaVariable": "component/avatar/lg"
+    },
+    "borderRadius": {
+      "$type": "dimension",
+      "$value": "{radius.full}",
+      "$resolvedValue": "9999px",
+      "$figmaVariable": "component/avatar/borderRadius"
+    }
+  },
+  "bottomNav": {
+    "$description": "Bottom Navigation Bar — 4–5 item tab bar",
+    "background": {
+      "$type": "color",
+      "$value": "{neutral.white}",
+      "$resolvedValue": "#FFFFFF",
+      "$figmaVariable": "component/bottomNav/background"
+    },
+    "itemActive": {
+      "$type": "color",
+      "$value": "{blue.700}",
+      "$resolvedValue": "#004EBE",
+      "$figmaVariable": "component/bottomNav/itemActive"
+    },
+    "itemInactive": {
+      "$type": "color",
+      "$value": "{neutral.500}",
+      "$resolvedValue": "#818BA0",
+      "$figmaVariable": "component/bottomNav/itemInactive"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{neutral.200}",
+      "$resolvedValue": "#DCE1E8",
+      "$figmaVariable": "component/bottomNav/border"
+    },
+    "height": {
+      "$type": "dimension",
+      "$value": "64px",
+      "$figmaVariable": "component/bottomNav/height"
+    },
+    "paddingVertical": {
+      "$type": "dimension",
+      "$value": "{spacing.2}",
+      "$resolvedValue": "8px",
+      "$figmaVariable": "component/bottomNav/paddingVertical"
+    },
+    "iconSize": {
+      "$type": "dimension",
+      "$value": "{layout.icon.md}",
+      "$resolvedValue": "20px",
+      "$figmaVariable": "component/bottomNav/iconSize"
+    },
+    "labelTypography": {
+      "$type": "typography",
+      "$value": "{label.md}",
+      "$resolvedValue": "Noto Sans 500 12/16",
+      "$figmaVariable": "component/bottomNav/labelTypography"
+    }
+  }
+}

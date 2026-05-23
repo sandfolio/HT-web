@@ -1,0 +1,105 @@
+{
+  "$metadata": {
+    "_figmaSource": "https://www.figma.com/design/lQojkiG3ZFBmsLu2GIShxm/Score-Design-System",
+    "canvas_width": 360,
+    "grid_unit": 4,
+    "icon_set": "Score Icons"
+  },
+  "canvas": {
+    "mobile": {
+      "$type": "dimension",
+      "$value": "360px",
+      "$figmaVariable": "layout/canvas/mobile"
+    },
+    "tablet": {
+      "$type": "dimension",
+      "$value": "768px",
+      "$figmaVariable": "layout/canvas/tablet"
+    },
+    "desktop": {
+      "$type": "dimension",
+      "$value": "1440px",
+      "$figmaVariable": "layout/canvas/desktop"
+    }
+  },
+  "grid": {
+    "mobile": {
+      "columns": {
+        "$type": "number",
+        "$value": 4
+      },
+      "gutter": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "margin": {
+        "$type": "dimension",
+        "$value": "16px"
+      }
+    },
+    "tablet": {
+      "columns": {
+        "$type": "number",
+        "$value": 8
+      },
+      "gutter": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "margin": {
+        "$type": "dimension",
+        "$value": "24px"
+      }
+    },
+    "desktop": {
+      "columns": {
+        "$type": "number",
+        "$value": 12
+      },
+      "gutter": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "margin": {
+        "$type": "dimension",
+        "$value": "80px"
+      }
+    }
+  },
+  "breakpoints": {
+    "mobile": {
+      "$type": "dimension",
+      "$value": "360px"
+    },
+    "tablet": {
+      "$type": "dimension",
+      "$value": "768px"
+    },
+    "desktop": {
+      "$type": "dimension",
+      "$value": "1440px"
+    }
+  },
+  "icon": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$figmaVariable": "layout/icon/sm"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "20px",
+      "$figmaVariable": "layout/icon/md"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$figmaVariable": "layout/icon/lg"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$figmaVariable": "layout/icon/xl"
+    }
+  }
+}
