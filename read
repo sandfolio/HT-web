@@ -1,0 +1,49 @@
+# Ht Web — Design Repository
+
+This repository contains the **HTML and JS design files** for **Ht Web**, generated and maintained by the **HT Design Agent**.
+
+---
+
+## Setup
+
+### Prompt
+
+> Clone `git@bitbucket.org:htds/ht_web.git` and then clone `git@bitbucket.org:htds/designagent.git` into `.github/` so it can act as the Design Agent for the project.
+
+### 1. Clone This Project
+
+```bash
+git clone git@bitbucket.org:htds/ht_web.git
+cd ht_web
+```
+
+### 2. Clone the Design Agent
+
+```bash
+git clone git@bitbucket.org:htds/designagent.git .github
+```
+
+> The `.github/` folder is listed in `.gitignore` — the agent repo remains fully independent and is **not** tracked by this project's Git.
+
+---
+
+## Purpose
+
+- Store all design out- Store all design out- Store all design out- Store all design out- Store all design out- Store all design ng- Store all design out- Store all design out- Store all design out- Store all design out- Store all design out- Sn
+
+###############################─�###############################─�nt (cloned separately, git-ignored)
+├── design-system/    ← Extracted design tokens (colors, typography, spacing…)
+├── app.�nfig.json   ← Project configuration (Figma URLs, settings)
+└── README.md
+```
+
+## Workflow
+
+1. **Design Agent** reads from Figma and generates HTML/JS screens
+2. All generated code is committed here for version tracking
+3. Modify designs by updating the PRD or tokens, then re-run the agent
+4. Review changes through 4. ReviewGit diffs and pull requests
+
+---
+
+> Managed by the **HT Design Agent Framework**
