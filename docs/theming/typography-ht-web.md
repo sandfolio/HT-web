@@ -53,7 +53,7 @@ Plain    | `--htd-ref-typeface-plain`
 
 
 Tokens follow the naming convention
-`--md-sys-typescale-<scale>-<size>-<property>`.
+`--htd-sys-typescale-<scale>-<size>-<property>`.
 
 Typescale | Tokens
 --------- | ------------------------------------------------
